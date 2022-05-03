@@ -1,7 +1,7 @@
+// I made this code thinking about don't create new pages for a small menu. We don't have to reload the page every time we're moving in the Nav Menu
 const interface= ()=>{
     const articlePointer=document.querySelectorAll(".contentCards");
     const menuPointer=document.querySelectorAll(".navButton");
-    
     /*default For showing only ront End article*/
     const defaultNavButomSelect=menuPointer[0].classList.contains("navButomSelect");
         if(defaultNavButomSelect==true){
