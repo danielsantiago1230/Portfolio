@@ -90,12 +90,6 @@ body{
 .card-img-top{
     border-radius: 0.7rem;
 }
-.cardDescription{
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-
-}
 .card:hover{
     background-color: #a6a6a6;
     opacity: 90%;
@@ -119,13 +113,13 @@ body{
     
 }
 .cardContact{
-    margin: 30px 0px 30px 0px;
-    padding: 20px 0px 20px 20px;
-    width: 700px;
+    margin: 2rem 0 1rem 0;
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+    width: 50rem;
     background-color: #ffffff;
-    box-shadow: 2px 1px 3px 1px #a6a6a6;
-    border-radius: 5px;
-    font-size: 25px;
+    box-shadow: 0.4rem 0.1rem 0.7rem 0.1rem #a6a6a6;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
     color: #d22704;
     
 }
@@ -135,9 +129,9 @@ body{
     color: #000000;
 }
 .cardContactLink:hover{
-    padding: 5px;
-    border: 1px solid;
-    border-radius: 5px;
+    padding: 0.5rem;
+    border: 0.2rem solid;
+    border-radius: 0.5rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -156,6 +150,22 @@ body{
     .card{
         margin: 2rem 0 2rem 0;
         
+    }
+    .cardContact{
+        margin: 1rem 0 1rem 0;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        width: 18rem;
+        background-color: #ffffff;
+        box-shadow: 0.4rem 0.1rem 0.7rem 0.1rem #a6a6a6;
+        border-radius: 0.5rem;
+        font-size: 0.7rem;
+        color: #d22704;
+        
+    }
+    .cardContactLink:hover{
+        padding: 0.3rem;
+        border: 0.1rem solid;
+        border-radius: 0.5rem;
     }
     
   } 
