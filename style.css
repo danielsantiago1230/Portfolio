@@ -51,13 +51,15 @@ body{
     color: #000000;
     border-color: #ffffff;
     text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 0.3rem 2rem 0.3rem 2rem;
 }
 .navButomUnselect:hover{
     background-color: #f2f2f2;
     border-color: #f2f2f2;
     color: #d22704;
-    border-radius: 10px;
-    padding: 5px 17px 5px 17px;
+    border-radius: 0.5rem;
+    padding: 0.3rem 2rem 0.3rem 2rem;
     text-decoration: none;
 
 }
@@ -82,7 +84,7 @@ body{
 .card{
     background-color: #ffffff;
     margin: 2rem 0 2rem 0;
-    box-shadow: 2px 1px 3px 1px #a6a6a6;
+    box-shadow: 0.4rem 0.1rem 0.7rem 0.1rem #a6a6a6;
     border-radius: 0.7rem;
 }
 .card-img-top{
@@ -97,6 +99,16 @@ body{
 .card:hover{
     background-color: #a6a6a6;
     opacity: 90%;
+}
+
+.buttomCard{
+    background-color: #d22704;
+    border-color: #b82305;
+}
+.buttomCard:hover{
+    background-color: #f2f2f2;
+    color: #d22704;
+    border-color: #b82305;
 }
 
 /*---- CONTACT ME ----*/
@@ -134,6 +146,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-top: 1rem;
     }
     .article{
         display: flex;
@@ -144,4 +157,5 @@ body{
         margin: 2rem 0 2rem 0;
         
     }
+    
   } 
