@@ -83,6 +83,8 @@ const interface= ()=>{
                     /*ends */
                     
                 }
+                //hide carrousel videos
+                handleCardsVideos();
             })
             
         })
@@ -91,3 +93,35 @@ const interface= ()=>{
    
 }
 interface();
+
+//Open and Close the carrousel from the cards Audio Visual -videos
+const handleCardsVideos=()=>{
+    const pointCarrouselVideos=document.querySelectorAll(".videosCarrousel");
+    pointCarrouselVideos.forEach(Element=>{
+        Element.style.display="none"
+    })
+
+    const clickVideosCard=document.querySelectorAll(".buttomVideo");
+    const articlevisualEditor=document.querySelector("#visualEditorContent");
+    clickVideosCard.forEach(Element=>{
+        Element.addEventListener("click",()=>{
+            if(Element==clickVideosCard[0]){
+                articlevisualEditor.style.display="none";
+                pointCarrouselVideos[1].style.display="block"
+            }
+        })
+        Element.addEventListener("click",()=>{
+            if(Element==clickVideosCard[1]){
+                articlevisualEditor.style.display="none";
+                pointCarrouselVideos[0].style.display="block"
+            }
+        })
+        Element.addEventListener("click",()=>{
+            if(Element==clickVideosCard[2]){
+                articlevisualEditor.style.display="none";
+                pointCarrouselVideos[2].style.display="block"
+            }
+        })
+    })
+}
+handleCardsVideos();
