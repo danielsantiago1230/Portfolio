@@ -136,6 +136,17 @@ body{
 }
 /*-------------END CONTACT ME--------------*/
 
+
+/*--------CONTENT VIDEOS AND PICS------------*/
+.eduUrquizaVideos{
+    background-color: #000000;
+}
+
+
+
+/*--------ENDCONTENT VIDEOS AND PICS------------*/
+
+
 /*--------------------FOOTER--------------*/
 .bi-linkedin{
     margin: 0rem 0.5rem 0rem 1rem;
@@ -181,8 +192,9 @@ body{
     }
     
   } 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 450px) {
     .card{
-        width: 18rem;
+        width: 16rem;
     }
+        
   }
